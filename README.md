@@ -2,6 +2,46 @@
 
 A lifelong learning hub built with MkDocs and Material for MkDocs.
 
+## View Changes Locally First
+ In WSL, go into your project folder:
+
+ cd /mnt/c/Users/jows/Documents/jemima-learning-hub
+
+ Activate your environment
+
+ source .venv/bin/activate
+
+ Run the site with
+
+ mkdocs serve
+
+ Then open th url in your browser
+
+ http://127.0.0.1:8000/
+
+
+
+ ## Push Changes to Github to Update Online
+
+ After editing any .md file in VS Code, run:
+
+ git status
+
+ To show what changed
+
+ Run
+
+ git add.
+ git commit -m "Update Learning notes"
+ git push
+
+ Read the Docs will automatically rebuild your online site
+
+ The public online link will look like this:
+
+ https:jemima-learning-hub.readthedocs.io/
+ 
+
 ## Local Setup
 
 ```bash

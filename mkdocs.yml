@@ -21,6 +21,25 @@ nav:
       - Overview: cybersecurity-grc/index.md
   - Blockchain & Smart Contracts:
       - Overview: blockchain-smart-contracts/index.md
+      - Blockchain Fundamentals: blockchain-smart-contracts/blockchain-fundamentals.md
+      - Smart Contracts: blockchain-smart-contracts/smart-contracts.md
+      - Hyperledger Fabric: blockchain-smart-contracts/hyperledger-fabric.md
+      - Endorsement Policies: blockchain-smart-contracts/endorsement-policies.md
+      - Chaincode: blockchain-smart-contracts/chaincode.md
+      - Ledger Auditability: blockchain-smart-contracts/ledger-auditability.md
+      - Consensus Mechanisms: blockchain-smart-contracts/consensus-mechanisms.md
+      - Blockchain for Compliance: blockchain-smart-contracts/blockchain-for-compliance.md
+  - Consensus Algorithms:
+      - Overview: consensus-algorithms/index.md
+      - Raft: consensus-algorithms/raft-basics.md
+      - Raft Log Replication: consensus-algorithms/raft-log-replication.md
+      - Raft Safety: consensus-algorithms/raft-safety.md
+      - Raft Practical Systems: consensus-algorithms/raft-practical-systems-view.md
+      - Paxos: consensus-algorithms/paxos-overview.md
+      - Single-Decree Paxos: consensus-algorithms/single-decree-paxos.md
+      - Multi-Paxos: consensus-algorithms/multi-paxos.md
+      - Raft vs. Paxos: consensus-algorithms/raft-vs-paxos.md
+      - Raft Summary: consensus-algorithms/raft-summary.md
   - AI Governance:
       - Overview: ai-governance/index.md
   - Privacy-Preserving Systems:
