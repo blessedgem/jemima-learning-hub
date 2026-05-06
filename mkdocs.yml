@@ -1,0 +1,48 @@
+site_name: Jemima Learning Hub
+site_description: A lifelong learning hub for cybersecurity, blockchain, AI governance, privacy-preserving systems, research, teaching, leadership, and career development.
+site_author: Jemima Owusu-Tweneboah
+
+repo_name: jemima-learning-hub
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Cybersecurity & GRC:
+      - Overview: cybersecurity-grc/index.md
+  - Blockchain & Smart Contracts:
+      - Overview: blockchain-smart-contracts/index.md
+  - AI Governance:
+      - Overview: ai-governance/index.md
+  - Privacy-Preserving Systems:
+      - Overview: privacy-preserving-systems/index.md
+  - Research Methods & Writing:
+      - Overview: research-methods-writing/index.md
+  - PhD Dissertation Notes:
+      - Overview: phd-dissertation-notes/index.md
+  - Teaching & Leadership:
+      - Overview: teaching-leadership/index.md
+  - Career Development:
+      - Overview: career-development/index.md
+  - Books, Courses & Reflections:
+      - Overview: books-courses-reflections/index.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
